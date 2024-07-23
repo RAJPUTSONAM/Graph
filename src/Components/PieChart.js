@@ -1,8 +1,8 @@
 import React from "react";
-import { Chart as chartJS, Tooltip, LineElement, CategoryScale, PointElement,Title,Legend, LinearScale } from "chart.js";
+import { Chart as chartJS, Tooltip, LineElement, CategoryScale, PointElement,Title,Legend, LinearScale, ArcElement } from "chart.js";
 import { Pie } from "react-chartjs-2";
 
-chartJS.register(Tooltip,Legend,LinearScale,LineElement,CategoryScale,PointElement,Title);
+chartJS.register(Tooltip,Legend,LinearScale,LineElement,CategoryScale,PointElement,Title, ArcElement);
 
 const PieChart = () => {
     const data = {
